@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+.list-card .card-section {
+  padding: 10px 20px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-card .card-section-first {
+  padding: 10px 20px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-left-color: black;
+  border-right-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section {
+  padding: 10px 20px;
+  width: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right-color: black;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+
+.header-section-last {
+  padding: 10px 20px;
+  width: 250px;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+}
+
+.list-card {
+  display: flex;
+}
+
+.list-card:hover {
+  background-color: black;
+  color: white;
+}
